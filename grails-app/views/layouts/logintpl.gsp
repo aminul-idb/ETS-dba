@@ -2,7 +2,12 @@
 <html dir="ltr" lang="en-US">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Login -- Simple dba application</title>
+        <link rel="shortcut icon" href="${resource(dir: 'images/ico/', file: 'favicon.ico')}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="${resource(dir: 'images/ico/', file: 'apple-touch-icon-144-precomposed.png')}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="${resource(dir: 'images/ico/', file: 'apple-touch-icon-114-precomposed.png')}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="${resource(dir: 'images/ico/', file: 'apple-touch-icon-72-precomposed.png')}">
+        <link rel="apple-touch-icon-precomposed" href="${resource(dir: 'images/ico/', file: 'apple-touch-icon-57-precomposed.png')}">
+        <title>Login -- Simple dba application</title>
 	<!--- CSS --->
     <link rel="stylesheet" href="${resource(dir: 'css/login', file: 'style.css')}" type="text/css"/>
 
@@ -37,7 +42,8 @@
 
 </div>
 <div id="footer">
-    Copyright 2013 @ ETS DBA Tool - All rights reserved.
+    %{--Copyright 2013 @ ETS DBA Tool - All rights reserved.--}%
+    Report any issues to <a href="#"> it@etstv.com </a>
 </div>
     <script type='text/javascript'>
         <!--

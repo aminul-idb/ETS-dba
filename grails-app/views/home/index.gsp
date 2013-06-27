@@ -13,7 +13,7 @@
 
 <body>
 <div class="span9">
-    <div class="hero-unit">
+    <div class="well">
         <p>This is a template for a simple database application. Database operations and reports will goes to here</p>
     </div>
 </div><!--/span-->

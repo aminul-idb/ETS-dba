@@ -94,4 +94,4 @@ log4j = {
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.dba.admin.User'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.dba.admin.UserRole'
 grails.plugins.springsecurity.authority.className = 'com.dba.admin.Role'
-grails.plugins.springsecurity.successHandler.defaultTargetUrl = '/login/loginSuccess'
+//grails.plugins.springsecurity.successHandler.defaultTargetUrl = '/login/loginSuccess'

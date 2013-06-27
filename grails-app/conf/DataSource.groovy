@@ -40,10 +40,11 @@ environments {
     production {
         dataSource {
             pooled = true
+            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             driverClassName = "com.mysql.jdbc.Driver"
-            url = "jdbc:mysql://127.0.0.1:3306/grails_dba_app"
+            url = "jdbc:mysql://127.0.0.1:3306/etsdba"
             username = "root"
-            password = "root"
+            password = ""
 
             properties {
                 maxActive = 50
